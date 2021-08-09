@@ -1,10 +1,31 @@
+
+
 .App {
+  align-items: center;
+  padding: 15px;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.like-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.like-container img{
+  width: 25px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  padding: 25px;
+  color: red;
 }
 
 @media (prefers-reduced-motion: no-preference) {
